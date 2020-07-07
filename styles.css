@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+/* Navbar-section */
+.navbar{
+    padding: 10px 30px;
+    background-color: #eeeeee;
+    height: 30px;
+    line-height: 30px;
+}
+.nav-item{
+    position: absolute;
+    height: 25px;
+    width: 40px;
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight: bold;
+    }
+.second{
+    margin: 0 60px;
+    width:60px;
+}
+ .third{
+    margin: 0 135px;
+    width: 50px;
+}
+.fourth{
+    margin: 0 200px;
+}
+.fifth{
+    margin: 0 260px;
+    width:60px;
+}
+.nav-item:hover{
+    background-color: black;
+    color: white;
+}
+.twitter{
+    position: absolute;
+    right:80px;
+}
+.light-toogler{
+    position: absolute;
+    right: 20px;
+}
+.links{
+    text-decoration: none;
+    color: #393e46 ;
+}
+.links:hover{
+    color: #eeeeee;
+}
+.box{
+    background: linear-gradient(to right, #393e46 50%, #eeeeee 50%);
+ 
+}
+.box-greeting{
+    margin: 0;
+    color: #393e46;
+    padding: 200px 0 0 0;
+    
+}
+.box-heading{
+    margin: 0;
+    font-size: 60px;
+    padding: 50px;
+}
+.quality{
+    color: #393e46;
+    
+}
+.box-h2{
+    margin: 0;
+    padding-bottom: 150px;
+}
+.rahul{
+    color: white;
+    
+    padding-right: 20px;
+}
+.symbol{
+    font-size: 30px;
+}
+.image{
+    float: left;
+    width: 50%;
+    text-align: left;
+
+}
+.profile{
+    width: 550px;
+    height: 620px;
+}
+.about-me{
+    
+    font-size: 50px;
+    padding-top: 150px;
+
+}
+.about{
+    width: 70%;
+    margin: auto;
+    font-size: 16px;
+    color: #999999;
+    line-height: 29px;
+    font-weight: 100;
+  
+    font-style: normal;
+
+}
+/* about section start */
+#about{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.question, .answer{
+ 
+    font-size: 16px;
+    line-height: 29px;
+    font-style: normal;
+}
+.answer{
+    color: #999999;
+    padding-left: 80px;
+}
+.name{
+    margin-top: 50px;
+}
+
+/* about section end */
+
+/* work-section start */
+#work{
+    background: linear-gradient(to left, #393e46 50%, #eeeeee 50%);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.work{
+    text-align: left;
+    font-size: 32px;
+    padding: 100px 100px 0 100px;
+}
+.weather-app{
+    width: 680px;
+    height: 380px;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    float: left;
+    margin: 0 50px 50px 50px;
+    display: block;
+}
+.keeper-app{
+    width: 680px;
+    height: 380px;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    position: relative;
+    left: 280px;
+}
+.keeper-img:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.weather-app:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.weather-description{
+    background-color: #eeeeee;
+    color: #393e46;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    right: 180px;
+  
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    border-radius: 5px;
+}
+.description{
+    margin-top: 100px;
+}
+.keeper-description{
+    background-color: #393e46;
+    width: 500px;
+    height: 100%;
+    color: #eeeeee;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keeper{
+   margin-left: 30px;
+    text-align: left;
+    color: #393e46;
+}
+.description0{
+    margin-top: 430px;
+    margin-left: 180px;
+    position: absolute;
+    z-index: 1;   
+}
+.last{
+    padding-bottom: 50px;
+}
+/* work section end */
+
+/* contact section start */
+.get-in-touch{
+    padding-top: 50px;
+}
+
+.message{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    
+}
+.say-hello{
+    text-decoration: none;
+
+}
+.hiii{
+    border-style: solid;
+    border-color: #393e46;
+    color: #393e46;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80px;
+    height: 100%;
+    margin: auto;
+}
+
+
+.hiii:hover{
+    transition: 0.2s;
+    transform: scale(1.02);
+}
+/* contact section end */
+
+/* footer section start */
+.footer{
+    margin-top: 100px;
+    background-color: #393e46;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.github{
+    text-decoration: none;
+    color:#eeeeee
+}
+
+
+/* footer section end */
