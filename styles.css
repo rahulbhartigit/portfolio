@@ -166,7 +166,7 @@ body{
     position: relative;
     left: 280px;
 }
-.keeper-img:hover{
+.keep:hover{
     transition: 0.5s;
     transform: scale(1.05);
 }
